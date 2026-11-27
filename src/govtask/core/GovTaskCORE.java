@@ -4,6 +4,8 @@
  */
 package govtask.core;
 
+import govtask.core.gui.PantallaPrincipal;
+
 /**
  *
  * @author wweer
@@ -15,6 +17,10 @@ public class GovTaskCORE {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        PantallaPrincipal pantalla = new PantallaPrincipal();
+        pantalla.setLocationRelativeTo(null);
+        pantalla.setVisible(true);
     }
     
 }
